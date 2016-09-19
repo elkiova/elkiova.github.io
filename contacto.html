@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!--Esqueleto editado por Luis Hernando Benitez-->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Pagina de VENTASYA creada para el curso de Diseño web de la UNAD">
+		<meta name="author" content="Luis Benitez">
+		<meta name="keywords" content="HTML,HTML5,CSS,javascrit,CSS3, VENTASYA,tienda,Unad"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive Desing-->
+
+		<title>Contacto - VENTASYA</title>
+		
+		<!--El primer estilo organiza la vista y el segundo situa los elementos de forma agradable -->
+		<link rel="stylesheet" type="text/css" media="screen" href="layout.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css"><!--Define los estilos de la pagina en general-->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+
+		<div class="wrapper"><!--IMPORTANTE Todo el contenido va dentro de el-->
+
+			<header>
+				<nav>
+					<div id="marco"><a href="index.html"><img id="logo" src="img/logo_vya.png" alt="Logo VENTASYA"></a></div><!--Logo y link a inicio-->
+
+					<div id="menu"><ul><a href="tienda.html"><li class="live">Tienda</li></a><a href="conocenos.html"><li class="live">Conocenos</li></a><a href=""><li class="live">Contacto</li></a></ul></div>
+					<div id="user"><a href=""><img class="inter" src="img/busca.png" alt="busqueda"></a><a href=""><img class="inter" src="img/cesta.png" alt="carrito"></a></div><!--Iconos busqueda, carrito de compras y login-->
+				</nav>
+			</header>
+
+			<section id="formulario">
+				<form action='' method="post" id="datos">
+					<label>Tu Nombre:<input class="ingreso" type="text" name="username" id="user-name" value=""  required/></label><br><br>
+					<label >Tus Apellidos:<input class="ingreso" type="text" name="apellidos" id="user-apellido" value="" required/></label><br><br>
+					<label> Email:<input class="ingreso" type="email" name="email" placeholder="1234@ejemplo.com" value="" required></label><br><br>
+					<label> Telefono:<input class="ingreso" type="tel" name="email" placeholder="315 55 66" value=""></label><br><br>
+					<h3 id="coment">¿En que te podemos ayudar?</h3>
+					<textarea name="comentarios" rows="10" cols="40" placeholder="Escribenos tus comentarios"></textarea>
+				</form>
+				<input name="submit" type="submit"  value="Enviar" id="envio"/>
+			</section>
+			
+			<div class="push"></div><!--Empuja el footer abajo-->
+		</div><!--Fin del contenedor Wrapper-->
+
+		<footer>
+		<div id="contact">
+			<p id="izqui"><span class="tel">(+32)274 68 98</span></p>
+			<p id="dere"><span class="mail">hola@ventasya.co</span></p>
+		</div>
+			<p id="pie"><strong>Ventasya 2014</strong></p>
+		</footer>
+	</body>
+</html>
