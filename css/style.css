@@ -1,82 +1,107 @@
 /*font-family: 'Shadows Into Light', cursive;
  font-family: 'Indie Flower', cursive;
 */
-
+*{
+	margin: 0px;
+	padding: 0px;
+}
 #contenidos{
-	width: auto;
+	width: 1000px;
 	height: auto;
 	margin: auto;
 	position: relative;
-	
-
+	border: 1px solid #006680;
 }
-
-
+#banner{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+#header{
+	
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background-color: #e8e8e8;
+}
 /*ETIQUETAS*/
 body{
-background-color: white;
+background-image: url(../img/fondo.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 h1{
-font-family: 'Shadows Into Light', cursive;
-color: white;
-margin-left: auto;
-font-size: auto;
-text-align: center; 
+font-family: 'arial';
+color: black;
+margin-left: 10px;
+font-size: 25px;
+ 
 }
 
 h2{
 font-family: 'Indie Flower', cursive;
-color: white;
-margin-left: auto;
-font-size: auto;
-text-align: left; 
-}
-
-h3{
-font-family: 'Shadows Into Light', cursive;;
-color: white;
-font-size: 30px;
+color: black;
+margin-left: 10px;
+font-size: 20px;
 text-align: center; 
 }
 
+h3{
+font-family: 'tahoma';
+color: white;
+font-size: 15px;
+text-align: center; 
+}
+
+div#banner{
+	background-image: url(../img/banner.jpg);
+	width:1000px;
+	height:130px;
+	
+}
 
 header{
-	width: auto;
-	height: auto;
-	background-color: #ffffff;
+	width: 1000px;
+	height: 30px;
+	
 }
 
-nav{
-width: auto;
-height: 50px;
-background: white;
-border-radius: 10px;
+div#menu{
+width: 200px;
+margin-top: 50px;
 
 }
-ul{
-margin: auto;
-padding-top: 4px;
+div#menu ul{
+list-style: none;
 }
 
-li{
-	float: left;
-	list-style-type: none;
-	padding: 10px;
-	background: blue;
-	margin: 3px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px white inset; 
+div#menu li{
+	margin-top: 10px;
+	font-family: tahoma;
+	font-size: 18px;
+	background-color: #006680;
+	width: 160px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 20px;
+	box-shadow: 5px 0px 10px #939393;
+	-webkit-transition:padding-left 0.6s;
+	color: white;
 
+}
+div#menu ul li:hover{
+	padding-left: 50px;
 }
 
 section{
-	width: 700px;
-	background: gray;
+	width: 1000px;
+	background: white;
 	height: 600px;
-	float: right;
+	float: left;
 	margin-top: 20px;
 	border-radius: 10px;
 }
@@ -92,13 +117,12 @@ aside{
 }
 
 footer{
-width: auto;
-height: auto;
-margin-top: auto;
-border-radius: auto;
-margin-bottom: auto;
-margin-right: auto;
-background-color: black;
+
+	background: #666;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
 }
 
 p{
@@ -115,20 +139,13 @@ p{
 
 /*CLASES*/
 
-.ancho_menu_home{width: auto;}
-.ancho_menu_paginas{width: auto;}
-.menu:link{color: #e7a61a; text-decoration: none;}
-.menu:visited{color: #e7a61a; text-decoration: none;}
-.menu:hover{color: #e7a61a; text-decoration: none; text-shadow: 0 0 13px red;}
-.menu:active{color: #e7a61a; text-decoration: none;}
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
 
-
-.ancho_lado_home{width: auto;}
-.ancho_lado_paginas{width: auto;}
-.lado:link{color: #e7a61a; text-decoration: none;}
-.lado:visited{color: #e7a61a; text-decoration: none;}
-.lado:hover{color: #e7a61a; text-decoration: none; text-shadow: 0 0 13px red;}
-.lado:active{color: #e7a61a; text-decoration: none;}
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
 
 /*SEUDO CLASES*/
 
